@@ -1,0 +1,182 @@
+<v1:pinSettings xmlns:v1="http://www.tasking.com/schema/pinsettings/v1.1">
+  <v1:pinMappingsRef version="1.3" file=""/>
+  <v1:deviceSetting id="renesas.s124_48lqfp" pattern="Renesas Synergy S124">
+    <v1:packageSetting id="renesas.48lqfp"/>
+  </v1:deviceSetting>
+  <v1:configSetting configurationId="p108.gpio_mode" altId="p108.gpio_mode.gpio_mode_peripheral"/>
+  <v1:configSetting configurationId="p108" altId="p108.swd.swdio">
+    <v1:connectionSetting altId="swd.swdio.p108"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="swd.swdio" altId="swd.swdio.p108">
+    <v1:connectionSetting altId="p108.swd.swdio"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="swd.mode" altId="swd.mode.enabled"/>
+  <v1:configSetting configurationId="p300.gpio_mode" altId="p300.gpio_mode.gpio_mode_peripheral"/>
+  <v1:propertySetting propertyId="p108.symbolicname" value="SWD_SWDIO"/>
+  <v1:configSetting configurationId="p400.gpio_mode" altId="p400.gpio_mode.gpio_mode_out"/>
+  <v1:configSetting configurationId="p400" altId="p400.gpio"/>
+  <v1:propertySetting propertyId="p400.symbolicname" value="GPIO1"/>
+  <v1:configSetting configurationId="p401.gpio_mode" altId="p401.gpio_mode.gpio_mode_out"/>
+  <v1:configSetting configurationId="p401" altId="p401.gpio"/>
+  <v1:configSetting configurationId="p301" altId="p301.gpio"/>
+  <v1:configSetting configurationId="p206" altId="p206.gpio"/>
+  <v1:configSetting configurationId="p206.gpio_mode" altId="p206.gpio_mode.gpio_mode_out"/>
+  <v1:propertySetting propertyId="p301.symbolicname" value="GPIO6"/>
+  <v1:propertySetting propertyId="p206.symbolicname" value="GPIO5"/>
+  <v1:propertySetting propertyId="p401.symbolicname" value="GPIO2"/>
+  <v1:configSetting configurationId="p407.gpio_mode" altId="p407.gpio_mode.gpio_mode_out"/>
+  <v1:configSetting configurationId="p407" altId="p407.gpio"/>
+  <v1:propertySetting propertyId="p407.symbolicname" value="GPIO3"/>
+  <v1:configSetting configurationId="an_pins.analog0.an022.cfg" altId="an_pins.analog0.an022.enabled">
+    <v1:connectionSetting altId="p100.an022"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="an_pins.analog0.an000.cfg" altId="an_pins.analog0.an000.enabled">
+    <v1:connectionSetting altId="p000.an000"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p012.gpio_mode" altId="p012.gpio_mode.gpio_mode_an"/>
+  <v1:configSetting configurationId="an_pins.analog0.an002.cfg" altId="an_pins.analog0.an002.enabled">
+    <v1:connectionSetting altId="p002.an002"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p014" altId="p014.an009">
+    <v1:connectionSetting altId="an_pins.analog0.an009.enabled"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p013" altId="p013.an008">
+    <v1:connectionSetting altId="an_pins.analog0.an008.enabled"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p012" altId="p012.an007">
+    <v1:connectionSetting altId="an_pins.analog0.an007.enabled"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="an_pins.analog0.an009.cfg" altId="an_pins.analog0.an009.enabled">
+    <v1:connectionSetting altId="p014.an009"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="an_pins.analog0.an010.cfg" altId="an_pins.analog0.an010.enabled">
+    <v1:connectionSetting altId="p015.an010"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p001.gpio_mode" altId="p001.gpio_mode.gpio_mode_an"/>
+  <v1:configSetting configurationId="p015" altId="p015.an010">
+    <v1:connectionSetting altId="an_pins.analog0.an010.enabled"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p014.gpio_mode" altId="p014.gpio_mode.gpio_mode_an"/>
+  <v1:configSetting configurationId="an_pins.analog0.an001.cfg" altId="an_pins.analog0.an001.enabled">
+    <v1:connectionSetting altId="p001.an001"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="an_pins.analog0.an008.cfg" altId="an_pins.analog0.an008.enabled">
+    <v1:connectionSetting altId="p013.an008"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p013.gpio_mode" altId="p013.gpio_mode.gpio_mode_an"/>
+  <v1:configSetting configurationId="p000.gpio_mode" altId="p000.gpio_mode.gpio_mode_an"/>
+  <v1:configSetting configurationId="p002" altId="p002.an002">
+    <v1:connectionSetting altId="an_pins.analog0.an002.enabled"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="an_pins.analog0.an007.cfg" altId="an_pins.analog0.an007.enabled">
+    <v1:connectionSetting altId="p012.an007"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p001" altId="p001.an001">
+    <v1:connectionSetting altId="an_pins.analog0.an001.enabled"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p100" altId="p100.an022">
+    <v1:connectionSetting altId="an_pins.analog0.an022.enabled"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p000" altId="p000.an000">
+    <v1:connectionSetting altId="an_pins.analog0.an000.enabled"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p500" altId="p500.an016">
+    <v1:connectionSetting altId="an_pins.analog0.an016.enabled"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p500.gpio_mode" altId="p500.gpio_mode.gpio_mode_an"/>
+  <v1:configSetting configurationId="p100.gpio_mode" altId="p100.gpio_mode.gpio_mode_an"/>
+  <v1:configSetting configurationId="p015.gpio_mode" altId="p015.gpio_mode.gpio_mode_an"/>
+  <v1:configSetting configurationId="an_pins.analog0.an016.cfg" altId="an_pins.analog0.an016.enabled">
+    <v1:connectionSetting altId="p500.an016"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p002.gpio_mode" altId="p002.gpio_mode.gpio_mode_an"/>
+  <v1:propertySetting propertyId="p000.symbolicname" value="GPIO4"/>
+  <v1:propertySetting propertyId="p001.symbolicname" value="GPIO7"/>
+  <v1:propertySetting propertyId="p012.symbolicname" value="GPIO9"/>
+  <v1:propertySetting propertyId="p013.symbolicname" value="AN008"/>
+  <v1:propertySetting propertyId="p015.symbolicname" value="GPIO12"/>
+  <v1:propertySetting propertyId="p002.symbolicname" value="GPIO8"/>
+  <v1:propertySetting propertyId="p500.symbolicname" value="GPIO13"/>
+  <v1:propertySetting propertyId="p014.symbolicname" value="GPIO11"/>
+  <v1:propertySetting propertyId="p100.symbolicname" value="GPIO14"/>
+  <v1:configSetting configurationId="p112.gpio_mode" altId="p112.gpio_mode.gpio_mode_peripheral"/>
+  <v1:configSetting configurationId="p112" altId="p112.sci0.txd0_sda0_mosi0">
+    <v1:connectionSetting altId="sci0.txd0_sda0_mosi0.p112"/>
+  </v1:configSetting>
+  <v1:propertySetting propertyId="p112.symbolicname" value="SCI0_TXD0_SDA0_MOSI0"/>
+  <v1:configSetting configurationId="p104.gpio_mode" altId="p104.gpio_mode.gpio_mode_peripheral"/>
+  <v1:configSetting configurationId="p104" altId="p104.sci0.rxd0_scl0_miso0">
+    <v1:connectionSetting altId="sci0.rxd0_scl0_miso0.p104"/>
+  </v1:configSetting>
+  <v1:propertySetting propertyId="p104.symbolicname" value="SCI0_RXD0_SCL0_MISO0"/>
+  <v1:configSetting configurationId="sci0.txd0_sda0_mosi0" altId="sci0.txd0_sda0_mosi0.p112">
+    <v1:connectionSetting altId="p112.sci0.txd0_sda0_mosi0"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="sci0.rxd0_scl0_miso0" altId="sci0.rxd0_scl0_miso0.p104">
+    <v1:connectionSetting altId="p104.sci0.rxd0_scl0_miso0"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="sci0.mode" altId="sci0.asynchronousuart"/>
+  <v1:configSetting configurationId="p111" altId="p111.sci9.sck9">
+    <v1:connectionSetting altId="sci9.sck9.p111"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="sci9.txd9_sda9_mosi9" altId="sci9.txd9_sda9_mosi9.p109">
+    <v1:connectionSetting altId="p109.sci9.txd9_sda9_mosi9"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p110" altId="p110.sci9.rxd9_scl9_miso9">
+    <v1:connectionSetting altId="sci9.rxd9_scl9_miso9.p110"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="sci9.sck9" altId="sci9.sck9.p111">
+    <v1:connectionSetting altId="p111.sci9.sck9"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p109" altId="p109.sci9.txd9_sda9_mosi9">
+    <v1:connectionSetting altId="sci9.txd9_sda9_mosi9.p109"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p110.gpio_mode" altId="p110.gpio_mode.gpio_mode_peripheral"/>
+  <v1:configSetting configurationId="sci9.mode" altId="sci9.simplespi"/>
+  <v1:configSetting configurationId="sci9.rxd9_scl9_miso9" altId="sci9.rxd9_scl9_miso9.p110">
+    <v1:connectionSetting altId="p110.sci9.rxd9_scl9_miso9"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p111.gpio_mode" altId="p111.gpio_mode.gpio_mode_peripheral"/>
+  <v1:configSetting configurationId="p109.gpio_mode" altId="p109.gpio_mode.gpio_mode_peripheral"/>
+  <v1:propertySetting propertyId="p109.symbolicname" value="SCI9_TXD9_SDA9_MOSI9"/>
+  <v1:propertySetting propertyId="p111.symbolicname" value="SCI9_SCK9"/>
+  <v1:propertySetting propertyId="p110.symbolicname" value="SCI9_RXD9_SCL9_MISO9"/>
+  <v1:configSetting configurationId="p301.gpio_mode" altId="p301.gpio_mode.gpio_mode_out"/>
+  <v1:configSetting configurationId="p300" altId="p300.swd.swclk">
+    <v1:connectionSetting altId="swd.swclk.p300"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="swd.swclk" altId="swd.swclk.p300">
+    <v1:connectionSetting altId="p300.swd.swclk"/>
+  </v1:configSetting>
+  <v1:propertySetting propertyId="p300.symbolicname" value="SWD_SWCLK"/>
+  <v1:configSetting configurationId="p011" altId="p011.an006">
+    <v1:connectionSetting altId="an_pins.analog0.an006.enabled"/>
+  </v1:configSetting>
+  <v1:propertySetting propertyId="p011.symbolicname" value="GPIO15"/>
+  <v1:configSetting configurationId="p011.gpio_mode" altId="p011.gpio_mode.gpio_mode_an"/>
+  <v1:configSetting configurationId="p302" altId="p302.gpio"/>
+  <v1:configSetting configurationId="p302.gpio_mode" altId="p302.gpio_mode.gpio_mode_out"/>
+  <v1:propertySetting propertyId="p302.symbolicname" value="GPIO16"/>
+  <v1:configSetting configurationId="p101.gpio_mode" altId="p101.gpio_mode.gpio_mode_an"/>
+  <v1:configSetting configurationId="p101" altId="p101.an021">
+    <v1:connectionSetting altId="an_pins.analog0.an021.enabled"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="an_pins.analog0.an021.cfg" altId="an_pins.analog0.an021.enabled">
+    <v1:connectionSetting altId="p101.an021"/>
+  </v1:configSetting>
+  <v1:propertySetting propertyId="p101.symbolicname" value="GPIO17"/>
+  <v1:configSetting configurationId="an_pins.analog0.an006.cfg" altId="an_pins.analog0.an006.enabled">
+    <v1:connectionSetting altId="p011.an006"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p103" altId="p103.gpio"/>
+  <v1:configSetting configurationId="p103.gpio_mode" altId="p103.gpio_mode.gpio_mode_out"/>
+  <v1:propertySetting propertyId="p103.symbolicname" value="GPIO10"/>
+  <v1:configSetting configurationId="an_pins.analog0.an020.cfg" altId="an_pins.analog0.an020.enabled">
+    <v1:connectionSetting altId="p102.an020"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p102" altId="p102.an020">
+    <v1:connectionSetting altId="an_pins.analog0.an020.enabled"/>
+  </v1:configSetting>
+  <v1:configSetting configurationId="p102.gpio_mode" altId="p102.gpio_mode.gpio_mode_an"/>
+  <v1:propertySetting propertyId="p102.symbolicname" value="GPIO18"/>
+</v1:pinSettings>
