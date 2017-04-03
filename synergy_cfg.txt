@@ -1,0 +1,332 @@
+Synergy Configuration
+  Board "Custom User Board (S124)"
+    Part package: FM (LQFP/64)
+    Part memory size: 7 (128KB/16KB/4KB)
+    Core and Frequency: CM0+, 32MHz
+    Part series: Ultra-low Power (Up to 32MHz)
+    Main stack size (bytes): 0x1000
+    Process stack size (bytes): 0
+    Heap size (bytes) - A minimum of 4K (0x1000) is required if standard library functions are to be used.: 0x0
+    OFS0 register settings: Select fields below
+         IWDT Start Mode: IWDT is Disabled
+         IWDT Timeout Period: 2048 cycles
+         IWDT Dedicated Clock Frequency Divisor: 128
+         IWDT Window End Position:  0% (no window end position)
+         IWDT Window Start Position: 100% (no window start position)
+         IWDT Reset Interrupt Request Select: Reset is enabled
+         IWDT Stop Control: Stop counting when in Sleep, Snooze mode, Software Standby, or Deep Software Standby mode
+         WDT Start Mode Select: Stop WDT after a reset (register-start mode)
+         WDT Timeout Period: 16384 cycles
+         WDT Clock Frequency Division Ratio: 128
+         WDT Window End Position:  0% (no window end position)
+         WDT Window Start Position: 100% (no window start position)
+         WDT Reset Interrupt Request: Reset
+         WDT Stop Control: Stop counting when entering Sleep mode
+    OFS1 register settings: Select fields below
+         Voltage Detection 0 Circuit Start: Voltage monitor 0 reset is disabled after reset
+         Voltage Detection 0 Level: 1.90 V
+         HOCO OScillation Enable: HOCO oscillation is disabled after reset
+    ID code 1: 0xFFFFFFFF
+    ID code 2: 0xFFFFFFFF
+    ID code 3: 0xFFFFFFFF
+    ID code 4: 0xFFFFFFFF
+    MCU Vcc (mV): 3300
+    Parameter checking: Enabled
+    RTOS being used: ThreadX
+    Assert Failures: Return SSP_ERR_ASSERTION
+    Error Log: No Error Log
+    
+  Clocks
+    XTAL 16000000Hz
+    HOCO 48MHz
+    Clock Src: HOCO
+    ICLK Div /2
+    PCLKB Div /2
+    PCLKD Div /1
+    
+  Pin Configurations
+    R7FS124773A01CFL.pincfg -> g_bsp_pin_cfg
+      AVCC0 42 - - - - - - - - 
+      AVSS0 43 - - - - - - - - 
+      P000 48 "ANALOG0_AN000 / GPIO" GPIO4 - - "Analog mode" - - - 
+      P001 47 "ANALOG0_AN001 / GPIO" GPIO7 - - "Analog mode" - - - 
+      P002 46 "ANALOG0_AN002 / GPIO" GPIO8 - - "Analog mode" - - - 
+      P010 45 - - - - "Input mode" - None - 
+      P011 44 "ANALOG0_AN006 / GPIO" GPIO15 - - "Analog mode" - - - 
+      P012 41 "ANALOG0_AN007 / GPIO" GPIO9 - - "Analog mode" - - - 
+      P013 40 "ANALOG0_AN008 / GPIO" AN008 - - "Analog mode" - - - 
+      P014 39 "ANALOG0_AN009 / GPIO" GPIO11 - - "Analog mode" - - "This pin is restricted to 100KHz input!" 
+      P015 38 "ANALOG0_AN010 / GPIO" GPIO12 - - "Analog mode" - - - 
+      P100 36 "ANALOG0_AN022 / GPIO" GPIO14 - - "Analog mode" - - - 
+      P101 35 "ANALOG0_AN021 / GPIO" GPIO17 - - "Analog mode" - - - 
+      P102 34 "ANALOG0_AN020 / GPIO" GPIO18 - - "Analog mode" - - - 
+      P103 33 GPIO GPIO10 Low - "Output mode" - - - 
+      P104 32 SCI0_RXD0_SCL0_MISO0 SCI0_RXD0_SCL0_MISO0 Low - "Peripheral Mode" CMOS None - 
+      P108 25 SWD_SWDIO SWD_SWDIO Low - "Peripheral Mode" - None - 
+      P109 26 SCI9_TXD9_SDA9_MOSI9 SCI9_TXD9_SDA9_MOSI9 Low - "Peripheral Mode" CMOS None - 
+      P110 27 SCI9_RXD9_SCL9_MISO9 SCI9_RXD9_SCL9_MISO9 Low - "Peripheral Mode" CMOS None - 
+      P111 28 SCI9_SCK9 SCI9_SCK9 Low - "Peripheral Mode" - None - 
+      P112 29 SCI0_TXD0_SDA0_MOSI0 SCI0_TXD0_SDA0_MOSI0 Low - "Peripheral Mode" CMOS None - 
+      P200 21 - - - None "Input mode" - - "INPUT ONLY pin. DO NOT set to Output Mode!" 
+      P201 20 - - - - "Input mode" - None - 
+      P206 18 GPIO GPIO5 Low None "Output mode" CMOS - - 
+      P212 8 - - - None "Input mode" - None - 
+      P213 7 - - - None "Input mode" - None - 
+      P214 5 - - - - "Input mode" - - "INPUT ONLY pin. DO NOT set to Output Mode!" 
+      P215 4 - - - - "Input mode" - - "INPUT ONLY pin. DO NOT set to Output Mode!" 
+      P300 24 SWD_SWCLK SWD_SWCLK Low - "Peripheral Mode" - None - 
+      P301 23 GPIO GPIO6 Low None "Output mode" - - - 
+      P302 22 GPIO GPIO16 Low None "Output mode" - - - 
+      P400 1 GPIO GPIO1 Low None "Output mode" CMOS - - 
+      P401 2 GPIO GPIO2 Low None "Output mode" CMOS - - 
+      P407 12 GPIO GPIO3 Low - "Output mode" CMOS - - 
+      P408 11 - - - None "Input mode" - None - 
+      P409 10 - - - None "Input mode" - None - 
+      P500 37 "ANALOG0_AN016 / GPIO" GPIO13 - - "Analog mode" - - - 
+      RES 19 - - - - - - - - 
+      USB_DM 14 - - - - - - - - 
+      USB_DP 15 - - - - - - - - 
+      VCC 9 - - - - - - - - 
+      VCC 30 - - - - - - - - 
+      VCC_USB 16 - - - - - - - - 
+      VCC_USB_LDO 17 - - - - - - - - 
+      VCL 3 - - - - - - - - 
+      VSS 6 - - - - - - - - 
+      VSS 31 - - - - - - - - 
+      VSS_USB 13 - - - - - - - - 
+      
+  Module "I/O Port Driver on r_ioport"
+    Parameter Checking: Default (BSP)
+    
+  Module "ELC Driver on r_elc"
+    Parameter Checking: Default (BSP)
+    
+  Module "CGC Driver on r_cgc"
+    Parameter Checking: Default (BSP)
+    Main Oscillator Wait Time: 8163 cycles
+    Main Oscillator Clock Source: Crystal or Resonator
+    Oscillator Stop Detect: Enabled
+    Subclock Drive: Standard (12.5pf)
+    
+  Module "ADC Driver on r_adc"
+    Parameter Checking: Enabled
+    
+  Module "UART Driver on r_sci_uart"
+    External RTS Operation: Disable
+    Reception: Enable
+    Transmission: Enable
+    Parameter Checking: Default (BSP)
+    
+  Module "SPI Driver on r_sci_spi"
+    Parameter Checking: Default (BSP)
+    
+  Module "Flash Driver on r_flash_lp"
+    Parameter Checking: Default (BSP)
+    Code Flash Programming Enable: Disabled
+    
+  Module "Timer Driver on r_gpt"
+    Parameter Checking: Default (BSP)
+    
+  HAL
+    Instance "g_ioport I/O Port Driver on r_ioport"
+      Name [Fixed]: g_ioport
+      
+    Instance "g_elc ELC Driver on r_elc"
+      Name [Fixed]: g_elc
+      
+    Instance "g_cgc CGC Driver on r_cgc"
+      Name [Fixed]: g_cgc
+      
+    Instance "g_adc0 ADC Driver on r_adc"
+      Name: g_adc0
+      Unit: 0
+      Resolution: 12-Bit
+      Alignment: Right
+      Clear after read: On
+      Mode: Single Scan
+      Channel Scan Mask: Select channels below
+          Channel 0: Use in Normal/Group A
+          Channel 1: Use in Normal/Group A
+          Channel 2: Use in Normal/Group A
+          Channel 3: Unused
+          Channel 4: Unused
+          Channel 5: Unused
+          Channel 6: Use in Normal/Group A
+          Channel 7 (S3A7/S124 Only): Use in Normal/Group A
+          Channel 8 (S3A7/S124 Only): Use in Normal/Group A
+          Channel 9 (S3A7/S124 Only): Use in Normal/Group A
+          Channel 10 (S3A7/S124 Only): Use in Normal/Group A
+          Channel 11 (S3A7 Only): Unused
+          Channel 12 (S3A7 Only): Unused
+          Channel 13 (S3A7 Only): Unused
+          Channel 14 (S3A7 Only): Unused
+          Channel 15 (S3A7 Only): Unused
+          Channel 16: Use in Normal/Group A
+          Channel 17: Unused
+          Channel 18: Unused
+          Channel 19: Unused
+          Channel 20: Use in Normal/Group A
+          Channel 21 (Unit 0 Only): Use in Normal/Group A
+          Channel 22 (S3A7/S124 Only): Use in Normal/Group A
+          Channel 23 (S3A7 Only): Unused
+          Channel 24 (S3A7 Only): Unused
+          Channel 25 (S3A7 Only): Unused
+          Channel 26 (S3A7 Only): Unused
+          Channel 27 (S3A7 Only): Unused
+          Temperature Sensor: Unused
+          Voltage Sensor: Unused
+      Normal/Group A Trigger: Software
+      Group B Trigger (Valid only in Group Scan Mode): ELC Event (The only valid trigger for either group in Group Scan Mode)
+      Group Priority (Valid only in Group Scan Mode): Group A cannot interrupt Group B
+      Add/Average Count: Disabled
+      Addition/Averaging Mask: Select channels to perform addition/averaging below
+          Channel 0: Disabled
+          Channel 1: Disabled
+          Channel 2: Disabled
+          Channel 3: Disabled
+          Channel 4: Disabled
+          Channel 5: Disabled
+          Channel 6: Disabled
+          Channel 7: Disabled
+          Channel 8: Disabled
+          Channel 9: Disabled
+          Channel 10: Disabled
+          Channel 11: Disabled
+          Channel 12: Disabled
+          Channel 13: Disabled
+          Channel 14: Disabled
+          Channel 15: Disabled
+          Channel 16: Disabled
+          Channel 17: Disabled
+          Channel 18: Disabled
+          Channel 19: Disabled
+          Channel 20: Disabled
+          Channel 21: Disabled
+          Channel 22: Disabled
+          Channel 23: Disabled
+          Channel 24: Disabled
+          Channel 25: Disabled
+          Channel 26: Disabled
+          Channel 27: Disabled
+          Temperature Sensor: Disabled
+          Voltage Sensor: Disabled
+      Sample and Hold Mask: Select channels for which individual sample and hold circuit is to be enabled
+          Channel 0: Disabled
+          Channel 1: Disabled
+          Channel 2: Disabled
+      Sample Hold States (Applies only to the 3 channels selected above): 24
+      Callback: NULL
+      
+    Instance "g_uart0 UART Driver on r_sci_uart"
+      Name: g_uart0
+      Channel: 0
+      Baud Rate: 38400
+      Data Bits: 8bits
+      Parity: None
+      Stop Bits: 1bit
+      CTS/RTS Selection: RTS (CTS is disabled)
+      Name of UART callback function to be defined by user: UART0_Callback
+      Name of UART callback function for the RTS external pin control to be defined by user: NULL
+      Clock Source: Internal Clock
+      Baudrate Clock Output from SCK pin: Disable
+      Start bit detection: Falling Edge
+      Noise Cancel: Disable
+      
+      Instance "SCI Common"
+      Instance "g_transfer0 Transfer Driver on r_dtc Event SCI0 TXI"
+        Name: g_transfer0
+        Mode: Normal
+        Transfer Size: 1 Byte
+        Destination Address Mode: Fixed
+        Source Address Mode: Incremented
+        Repeat Area (Unused in Normal Mode): Source
+        Interrupt Frequency: After all transfers have completed
+        Destination Pointer: NULL
+        Source Pointer: NULL
+        Number of Transfers: 0
+        Number of Blocks (Valid only in Block Mode): 0
+        Activation Source (Must enable IRQ): Event SCI0 TXI
+        Auto Enable: False
+        Callback (Only valid with Software start): NULL
+        
+      Instance "g_transfer1 Transfer Driver on r_dtc Event SCI0 RXI"
+        Name: g_transfer1
+        Mode: Normal
+        Transfer Size: 1 Byte
+        Destination Address Mode: Incremented
+        Source Address Mode: Fixed
+        Repeat Area (Unused in Normal Mode): Destination
+        Interrupt Frequency: After all transfers have completed
+        Destination Pointer: NULL
+        Source Pointer: NULL
+        Number of Transfers: 0
+        Number of Blocks (Valid only in Block Mode): 0
+        Activation Source (Must enable IRQ): Event SCI0 RXI
+        Auto Enable: False
+        Callback (Only valid with Software start): NULL
+        
+    Instance "g_spi9 SPI Driver on r_sci_spi"
+      Name: g_spi9
+      Channel: 9
+      Operating Mode: Master
+      Clock Phase: Data sampling on odd edge, data variation on even edge
+      Clock Polarity: Low when idle
+      Mode Fault Error: Disable
+      Bit Order: MSB First
+      Bitrate: 100000
+      Callback: NULL
+      
+      Instance "SCI Common"
+      Instance "g_transfer2 Transfer Driver on r_dtc Event SCI9 TXI"
+        Name: g_transfer2
+        Mode: Normal
+        Transfer Size: 1 Byte
+        Destination Address Mode: Fixed
+        Source Address Mode: Incremented
+        Repeat Area (Unused in Normal Mode): Source
+        Interrupt Frequency: After all transfers have completed
+        Destination Pointer: NULL
+        Source Pointer: NULL
+        Number of Transfers: 0
+        Number of Blocks (Valid only in Block Mode): 0
+        Activation Source (Must enable IRQ): Event SCI9 TXI
+        Auto Enable: False
+        Callback (Only valid with Software start): NULL
+        
+      Instance "g_transfer3 Transfer Driver on r_dtc Event SCI9 RXI"
+        Name: g_transfer3
+        Mode: Normal
+        Transfer Size: 1 Byte
+        Destination Address Mode: Incremented
+        Source Address Mode: Fixed
+        Repeat Area (Unused in Normal Mode): Destination
+        Interrupt Frequency: After all transfers have completed
+        Destination Pointer: NULL
+        Source Pointer: NULL
+        Number of Transfers: 0
+        Number of Blocks (Valid only in Block Mode): 0
+        Activation Source (Must enable IRQ): Event SCI9 RXI
+        Auto Enable: False
+        Callback (Only valid with Software start): NULL
+        
+    Instance "g_flash0 Flash Driver on r_flash_lp"
+      Name: g_flash0
+      Data Flash Background Operation: Enabled
+      Callback: flash_callback
+      
+    Instance "g_timer0 Timer Driver on r_gpt"
+      Name: g_timer0
+      Channel: 0
+      Mode: Periodic
+      Period Value: 37
+      Period Unit: Milliseconds
+      Duty Cycle Value: 50
+      Duty Cycle Unit: Unit Raw Counts
+      Auto Start: True
+      GTIOCA Output Enabled: False
+      GTIOCA Stop Level: Pin Level Low
+      GTIOCB Output Enabled: False
+      GTIOCB Stop Level: Pin Level Low
+      Callback: gTimer_ISR
+      
+  Messaging
